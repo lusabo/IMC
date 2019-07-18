@@ -65,7 +65,7 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uwC-Hv-ewM"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQR-ak-gq4">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQR-ak-gq4">
                                 <rect key="frame" x="0.0" y="275" width="414" height="461"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu índice de massa corporal é" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6B-NS-4Jx">
@@ -137,6 +137,7 @@
                         <outlet property="lbResult" destination="W7o-5d-Gjk" id="64B-Gi-c1h"/>
                         <outlet property="tfHeight" destination="2Yz-Y9-lzj" id="uEJ-Uq-Y8T"/>
                         <outlet property="tfWeight" destination="tQS-Lf-tLm" id="8Oe-Ju-LeK"/>
+                        <outlet property="viResult" destination="NQR-ak-gq4" id="9vx-YT-jRN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
