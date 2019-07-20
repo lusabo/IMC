@@ -15,16 +15,21 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="VTT-7K-Hmm">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="VTT-7K-Hmm">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <color key="tintColor" red="0.29411764705882354" green="0.70980392156862748" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VTT-7K-Hmm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3J4-ob-IwH"/>
+                            <constraint firstItem="VTT-7K-Hmm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="766-Mt-NXC"/>
+                            <constraint firstItem="VTT-7K-Hmm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NXq-FS-WEk"/>
+                            <constraint firstItem="VTT-7K-Hmm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hP4-6Y-bMv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
